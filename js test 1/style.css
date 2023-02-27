@@ -1,0 +1,49 @@
+body{
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+
+    left: 45%;
+    transform: translateY(50%);
+}
+
+button{
+    outline: none;
+    border: none;
+    background: white;
+
+    cursor: pointer;
+
+}
+
+button:hover{
+    background: paleturquoise;
+    color: blueviolet;
+}
+
+
+p{
+    font-weight: bold; 
+
+    text-transform: uppercase;
+
+    animation: colorchange 3s infinite alternate;
+}
+
+@keyframes colorchange{
+    0% {
+        color: red;
+    }
+    30% {
+        color: yellow;
+    }
+    50% {
+        color: rgb(238, 0, 255);
+    }
+    80% {
+        color: rgb(2, 255, 74);
+    }
+    100% {
+        color: purple;
+    }
+}
